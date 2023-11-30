@@ -4,8 +4,6 @@ on:
   push:
     branches-ignore:
       - master
-    branches:
-      - main
 jobs:
   build-push-on-branches-script:
     runs-on: ubuntu-latest
